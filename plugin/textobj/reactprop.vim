@@ -50,11 +50,11 @@ function! s:ToBeginningOfReactProp()
   " b = search backwards
   " c = accept a match at the cursor position
   " line(".") = stop after searching this line
-  let result = search(g:REACT_PROP_BEGINNING_RE, "bc", line("."))
+  let result = search(s:REACT_PROP_BEGINNING_RE, "bc", line("."))
   if result == 0
     " We didn't find it searching backwards on this line, so try searching
     " forwards
-    let result = search(g:REACT_PROP_BEGINNING_RE, "c", line("."))
+    let result = search(s:REACT_PROP_BEGINNING_RE, "c", line("."))
   endif
   return result != 0
 endfunction
