@@ -13,7 +13,9 @@ Demos
 =====
 
 `dar`
+
 ![](pics/vimdemo.gif)
 
 `cir`
+
 ![](pics/vimdemo2.gif)
