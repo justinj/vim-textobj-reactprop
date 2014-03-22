@@ -15,7 +15,7 @@ TODO:
 Demos
 =====
 
-`dar`
+`var`
 
 ![](pics/vimdemo.gif)
 
